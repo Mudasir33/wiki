@@ -1,0 +1,206 @@
+@charset "UTF-8";
+body {
+  font: 87% sans-serif;
+  margin: auto;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.artikel {
+  margin-left: 0px;
+  padding: 16px;
+}
+
+.innehål {
+  margin-left: 0px;
+  padding: 16px;
+  border-style: solid;
+  border-color: black;
+  width: 200px;
+  padding-left: 0px;
+  border-width: 1px;
+  background-color: #f1f1f1;
+}
+
+.innehål ol {
+  padding-left: 30px;
+}
+
+.innehål a {
+  text-decoration: none;
+  color: blue;
+  text-align: center;
+}
+
+.innehål a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.header {
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(167, 215, 249, 0)), to(#a7d7f9));
+  background-image: linear-gradient(to bottom, rgba(167, 215, 249, 0) 0, #a7d7f9 100%);
+}
+
+.header li {
+  display: inline;
+  border-right: solid;
+  border-color: blue;
+  border-width: 1px;
+  padding: 4px;
+}
+
+.header ul {
+  padding: 3px;
+  margin-left: 0px;
+  margin-bottom: -5px;
+}
+
+.header a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.header a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.huvud {
+  width: 100%;
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.huvud li {
+  display: inline;
+}
+
+.huvud ul {
+  padding: 0%;
+}
+
+.huvud a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.huvud a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+nav.nav {
+  position: absolute;
+  background-color: #f1f1f1;
+  top: 0px;
+  width: 172px;
+  height: 100%;
+}
+
+span {
+  color: gray;
+  padding: 8px 16px;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin-top: 0px;
+  width: 171px;
+  padding: 0;
+}
+
+.profil {
+  width: 22em;
+  max-width: 50%;
+  border: 1px solid gray;
+  border-spacing: 3px;
+  color: black;
+  padding: 0.2em;
+  margin: 0.5em 0 0.5em 1em;
+  float: right;
+  clear: right;
+  line-height: 1.5em;
+}
+
+th {
+  text-align: left;
+  vertical-align: top;
+}
+
+td {
+  color: black;
+  padding: 1px;
+}
+
+.nav li a {
+  display: block;
+  color: blue;
+  padding: 8px 16px;
+  text-decoration: none;
+  width: 139px;
+}
+
+.nav li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+img {
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: block;
+  width: 10em;
+  height: 160px;
+  text-decoration: none;
+}
+
+.linje {
+  border-bottom: solid;
+  border-bottom-color: blue;
+  margin-left: 0%;
+  border-width: 1px;
+}
+
+.ordning {
+  text-align: center;
+  margin: 10px;
+  background: lavender;
+}
+
+.ordning1 {
+  color: #0645ad;
+}
+
+.profil_bild {
+  width: 220px;
+  height: 237px;
+  margin: 45px;
+  max-width: 75%;
+}
+/*# sourceMappingURL=style.css.map */
